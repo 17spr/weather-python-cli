@@ -1,9 +1,9 @@
 import requests
 import click
 
-SAMPLE_API_KEY = 'b1b15e88fa797225412429c1c50c122a1'
+# SAMPLE_API_KEY = 'b1b15e88fa797225412429c1c50c122a1'
 
-def current_weather(location, api_key=SAMPLE_API_KEY):
+def current_weather(location):
     url = 'https://api.openweathermap.org/data/2.5/weather'
 
     query_params = {
